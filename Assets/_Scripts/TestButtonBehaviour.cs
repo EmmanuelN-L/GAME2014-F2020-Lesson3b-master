@@ -26,7 +26,7 @@ public class TestButtonBehaviour : MonoBehaviour
         Debug.Log("TestButtonPressed");
         //Places text in the correct position thats given in the vector2
         //Anchored for Relevant position (UI)
-        LivesLabel.rectTransform.anchoredPosition = new Vector2(0.0f, 80.0f);
-        ScoreLabel.rectTransform.anchoredPosition = new Vector2(0.0f, 80.0f);
+        LivesLabel.rectTransform.anchoredPosition = new Vector2(278.0f, -80.0f);
+        ScoreLabel.rectTransform.anchoredPosition = new Vector2(0.0f, -8.0f);
     }
 }

@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
                 break;
             case DeviceOrientation.LandscapeLeft:
                 SceneLabel.text =  "LandscapeLeft";
-                LivesLabel.rectTransform.anchoredPosition = new Vector2(0.0f, -77.0f);
+                LivesLabel.rectTransform.anchoredPosition = new Vector2(405.0f, -77.0f);
                 ScoreLabel.rectTransform.anchoredPosition = new Vector2(-510.0f, -77.0f);
                 break;
             case DeviceOrientation.LandscapeRight:
